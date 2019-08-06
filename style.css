@@ -16,8 +16,8 @@ body{
   padding: 1rem;
   z-index: 1;
   color: #fff;
-
 }
+
 .primary-text{
   color: rgb(2, 207, 2);
 }
@@ -72,8 +72,6 @@ body{
   .showcase-content__info{
     font-size: 1.2rem;
     margin-bottom: 0.75rem;
-
-    /* color: green; */
   }
 
   .showcase-btn{
@@ -94,30 +92,60 @@ body{
 /* Services */
 
 .services{
-  height: 40vh;
-  padding: 1.5rem;
+  /* height: 40vh; */
+  padding: 1.5rem 0;
   background: #f4f4f4;
-}
-
-.services__heading{
-  text-align: center;
-  font-size: 2rem;
+  color: #333;
 }
 
 .service-container{
-  display: flex;
-  padding: 1rem;
+  /* display: flex;
+  padding: 1rem; */
   /* justify-content: flex-end;
   align-items: center; 
   align-content: center;  */
   /* height: 100%; */
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+
 }
 
-.service-container div{
+.services__heading{
+  text-align: center;
+  /* font-size: 2rem; */
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+
+/* .service-container div{
   width: 25vw;
+} */
+
+.items{
+  display: flex;  
+  padding: 1rem;
+}
+
+.item{
+  display: flex;
+}
+
+.item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  align-self: center; 
+  margin-bottom: 0;
 }
 
 
+
+/* 
 .dot{
   width: 2rem !important;
   height: 2rem;
@@ -128,4 +156,4 @@ body{
 .service{
   display: flex;
   justify-content: flex-end;
-}
+} */
