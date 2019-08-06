@@ -144,16 +144,27 @@ body{
 }
 
 
+.clients-container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 0;
+  overflow: hidden;
+} 
 
-/* 
-.dot{
-  width: 2rem !important;
-  height: 2rem;
-  background: green;
-  border-radius: 50%;
+.clients-heading{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+  text-align: center;
 }
 
-.service{
+.clients-logos{
+  padding: 1rem 0;
   display: flex;
-  justify-content: flex-end;
-} */
+}
+
+.clients-logos div img{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
